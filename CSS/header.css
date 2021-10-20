@@ -1,0 +1,39 @@
+header {
+
+    background-color: #25A4;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+
+}
+
+.Logo {
+
+    width: 170px;
+    height: 46px;
+
+}
+
+.menu ul{
+
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.menu ul a{
+
+    color: #EEE;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: .8s;
+}
+.menu ul a:hover{
+
+    color: #E00;
+
+}

@@ -1,0 +1,59 @@
+main {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #EEE;
+    padding: 0px 80px;
+}
+
+main h2 {
+
+    font-size: 2.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+main h1 {
+
+    font-size: 4.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+main p {
+
+    width: 800px;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    margin: 13px;
+
+}
+
+main a {
+
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #E50914;
+    color: #000;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: all 0.7s;
+    margin-top: 40px;
+}
+
+main a:hover{
+
+    border: 1px solid #E50914;
+    background-color: #000;
+    color: #EEE;
+
+
+}
