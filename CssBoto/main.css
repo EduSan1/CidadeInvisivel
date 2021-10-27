@@ -1,0 +1,145 @@
+main {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #EEE;
+    padding: 0px 80px;
+}
+
+main h2 {
+
+    width: 120px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF; 
+    color: #0001;
+    font-size: 2.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    margin-left: 390px;
+}
+
+main h1 {
+
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #FFF; 
+    color: #0000;
+    font-size: 9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    margin-top: -45px;
+
+}
+
+div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.TextoELenda1 {
+
+    width: 750px;
+    font-size: 1.75rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin-bottom:100px;
+    margin-top: 13px;
+}
+
+.TextoLenda {
+
+    margin-left: -80px;
+
+}
+
+.lendasVertical {
+
+    font-size: 3rem;
+    transform: rotate(270deg);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #E50914;
+    margin-left: 50px;
+}
+
+.informacoes {
+
+    display: flex;
+    flex-direction: row;
+    width: 635px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin: 13px;
+    justify-content: space-between;
+
+
+}
+.ator {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ator div1 {
+
+    font-size: 1.75rem;
+
+}
+
+.linhaBaixo {
+    height: 60px;
+    border-right: 3px solid #E50914;
+}
+
+
+.personagem {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.personagem div1 {
+
+    font-size: 1.75rem;
+
+}
+
+
+.entidade {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.entidade div1 {
+
+    font-size: 1.75rem;
+
+}
+
+/* main a {
+
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #E50914;
+    color: #000;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: all 0.7s;
+    margin-top: 40px;
+} */
+
+main a:hover{
+
+    border: 1px solid #E50914;
+    background-color: #000;
+    color: #EEE;
+
+
+}
