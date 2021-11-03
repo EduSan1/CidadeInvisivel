@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/dropdown-menu.css">
     <link rel="stylesheet" href="./CssBoto/style.css" />
     <link rel="stylesheet" href="./CSS/header.css" />
     <link rel="stylesheet" href="./CssBoto/main.css" />
@@ -22,18 +23,22 @@
         <img src="./IMG/Logo.png" alt="" />
       </a>
 
-      <nav class="menu">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Lendas</a></li>
-          <li>
-            <a
-              href="https://www.youtube.com/watch?v=GodwQKNXIYk"
-              target="_blank"
-              >Trailer</a
-            >
+      <nav>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Lendas &#9660;</a>
+            <ul class="dropdown-submenu">
+              <li><a href="#">Curupira</a></li>
+              <li><a href="Boto.html">Boto</a></li>
+              <li><a href="#">Cuca</a></li>
+              <li><a href="#">Saci</a></li>
+            </ul>
           </li>
-          <li><a href="">Sobre</a></li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=GodwQKNXIYk" target="_blank">
+              Trailer</a>
+          </li>
+          <li><a href="#">Sobre</a></li>
         </ul>
       </nav>
     </header>
