@@ -1,0 +1,10 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../IMG/Curupira.png);
+    background-size: cover;
+    background-position: right top;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+}

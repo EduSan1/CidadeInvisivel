@@ -18,7 +18,7 @@ header {
 
 }
 
-
+/* 
 
 .menu {
     display: flex;
@@ -47,5 +47,5 @@ header {
     justify-content: center;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-    transition: .8s;
-}
+    transition: .8s; */
+/* } */
