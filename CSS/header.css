@@ -18,6 +18,45 @@ header {
 
 }
 
+@media (max-width:780px){
+
+    header {
+        background-color: #00000099;
+        position: absolute;
+        padding: 0px 20px;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #0000;
+        margin-top: 0px;
+    }
+
+.Logo {
+    position: absolute;
+    background-repeat: no-repeat;
+    min-width: 20px;
+    max-width: 20px;
+    height: 34px;
+    top: 20px;
+    background-image: url(../IMG/logoPequenoNetflix.png);
+    z-index: 1;
+}
+
+.Logo img {
+    display: none;
+}}
+
 /* 
 
 .menu {

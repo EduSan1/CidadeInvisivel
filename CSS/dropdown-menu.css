@@ -88,3 +88,26 @@ nav ul a:hover{
 .dropdown-submenu li:hover {
     background-color: #00000060;
 }
+
+@media (max-width:780px){
+
+
+    .dropdown-menu {
+        flex-direction: column;
+        gap: 90px;
+        
+    }
+
+    .dropdown-menu > li {
+        font-size: 2rem;
+    }
+
+    .dropdown-submenu {
+        display: flex;
+    }
+
+    .dropdown-submenu >li {
+        font-size: 1rem;
+    }
+ 
+}

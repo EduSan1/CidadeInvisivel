@@ -57,3 +57,37 @@ main a:hover{
 
 
 }
+
+@media (max-width: 720px) {
+
+    main {
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 55px;
+    }
+
+    main h1 {
+        font-size: 4.5rem;
+        text-align: center; 
+        line-height: 3.5rem;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        
+    }
+
+    main h1 span {
+        font-size: 3rem;
+      
+    }
+
+
+    main p {
+
+        display: none;
+        font-weight: 600;
+    }
+
+}
