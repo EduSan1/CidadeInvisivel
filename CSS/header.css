@@ -21,7 +21,7 @@ header {
 @media (max-width:780px){
 
     header {
-        background-color: #00000099;
+        background-color: #0000;
         position: absolute;
         padding: 0px 20px;
         height: 100vh;
@@ -29,8 +29,8 @@ header {
 
     }
 
-    nav {
-        display: flex;
+    .menu {
+        display: none ;
         align-items: center;
         justify-content: center;
         position: absolute;
@@ -38,8 +38,14 @@ header {
         top: 0;
         left: 0;
         width: 100%;
-        background-color: #0000;
+        background-color: #0008;
         margin-top: 0px;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
     }
 
 .Logo {
